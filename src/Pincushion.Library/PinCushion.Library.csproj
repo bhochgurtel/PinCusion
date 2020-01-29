@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Renci.SshNet">
-      <HintPath>..\Renci\Renci.SshNet.dll</HintPath>
+      <HintPath>\\psf\Home\Documents\Visual Studio 2013\Projects\PinCushion\Renci\Renci.SshNet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
