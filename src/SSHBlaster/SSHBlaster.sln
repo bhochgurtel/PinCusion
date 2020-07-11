@@ -4,23 +4,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinCusionClient", "..\PincushionClient\PinCusionClient.csproj", "{9E647D1D-3033-497F-B887-17200411E6CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22D23063-E06E-4C61-83C7-9C93E806CE1C} = {22D23063-E06E-4C61-83C7-9C93E806CE1C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinCushion.Library", "..\Pincushion.Library\PinCushion.Library.csproj", "{22D23063-E06E-4C61-83C7-9C93E806CE1C}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PinCushion SSHBlaster", "PinCushion SSHBlaster Installer\PinCushion SSHBlaster Installer.vdproj", "{19F7F28F-D622-4207-B6A5-2CE60E4B2145}"
+EndProject
+>>>>>>> 4191e6f54f4b4ee23b512088eabe508aa364f03f
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9E647D1D-3033-497F-B887-17200411E6CC}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{9E647D1D-3033-497F-B887-17200411E6CC}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{9E647D1D-3033-497F-B887-17200411E6CC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9E647D1D-3033-497F-B887-17200411E6CC}.Debug|x86.Build.0 = Debug|Any CPU
 		{9E647D1D-3033-497F-B887-17200411E6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E647D1D-3033-497F-B887-17200411E6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E647D1D-3033-497F-B887-17200411E6CC}.Release|x86.ActiveCfg = Release|Any CPU
+		{9E647D1D-3033-497F-B887-17200411E6CC}.Release|x86.Build.0 = Release|Any CPU
 		{22D23063-E06E-4C61-83C7-9C93E806CE1C}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{22D23063-E06E-4C61-83C7-9C93E806CE1C}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{22D23063-E06E-4C61-83C7-9C93E806CE1C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{22D23063-E06E-4C61-83C7-9C93E806CE1C}.Debug|x86.Build.0 = Debug|Any CPU
 		{22D23063-E06E-4C61-83C7-9C93E806CE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22D23063-E06E-4C61-83C7-9C93E806CE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+=======
+		{22D23063-E06E-4C61-83C7-9C93E806CE1C}.Release|x86.ActiveCfg = Release|Any CPU
+		{22D23063-E06E-4C61-83C7-9C93E806CE1C}.Release|x86.Build.0 = Release|Any CPU
+		{19F7F28F-D622-4207-B6A5-2CE60E4B2145}.Debug|Any CPU.ActiveCfg = Release
+		{19F7F28F-D622-4207-B6A5-2CE60E4B2145}.Debug|Any CPU.Build.0 = Release
+		{19F7F28F-D622-4207-B6A5-2CE60E4B2145}.Debug|x86.ActiveCfg = Debug
+		{19F7F28F-D622-4207-B6A5-2CE60E4B2145}.Release|Any CPU.ActiveCfg = Release
+		{19F7F28F-D622-4207-B6A5-2CE60E4B2145}.Release|x86.ActiveCfg = Release
+>>>>>>> 4191e6f54f4b4ee23b512088eabe508aa364f03f
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
